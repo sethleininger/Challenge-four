@@ -15,7 +15,8 @@ const startButtonEl = document.querySelector("#startButton");
 const tryAgainButtonEl = document.querySelector("#tryAgainBtn");
 // Clear button is assigned to the clearHighScores id
 const clearScoreButtonEl = document.querySelector("#clearHighScoresBtn");
-// Quiz Questions =======================
+
+// Quiz Questions - an array within an array =======================
 let currentQuestion = 0;
 
 let questions = [
